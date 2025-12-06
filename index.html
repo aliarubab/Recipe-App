@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder 🍳</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <h1>Recipe Finder 🍳</h1>
+<button id="dark-mode-btn"> Dark Mode</button>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search for a recipe...">
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div class="category-filters">
+      <button data-category="Breakfast">Breakfast</button>
+      <button data-category="Lunch">Lunch</button>
+      <button data-category="Dinner">Dinner</button>
+      <button data-category="Vegan">Vegan</button>
+      <button data-category="Dessert">Dessert</button>
+    </div>
+
+    <h2>Recipes</h2>
+    <div id="recipes" class="recipes-grid"></div>
+
+    <h2>Favorites ❤</h2>
+    <div id="favorites" class="recipes-grid"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
